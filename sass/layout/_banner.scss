@@ -1,0 +1,23 @@
+.banner-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $c-dark;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/banner-bg.jpg");
+  background-size: cover;
+  color: $c-light;
+
+  .container {
+    padding: 200px 15px;
+  }
+}
+
+.banner-section-content {
+  width: 650px;
+  text-align: center;
+  text-transform: uppercase;
+}
