@@ -65,7 +65,7 @@
     background-image: url(../images/accepted.svg);
   }
 
-  :focus {
+  &:focus {
     width: 16px;
     height: 15px;
   }

@@ -737,7 +737,7 @@ footer address a {
   background-image: url(../images/accepted.svg);
 }
 
-.accept-policy-checkbox :focus {
+.accept-policy-checkbox:focus {
   width: 16px;
   height: 15px;
 }
