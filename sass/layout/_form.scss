@@ -119,7 +119,7 @@
 
   &:hover {
     border: 1px solid $c-accent;
-    color: $txt-c-accent;
+    color: $txt-c-dark;
   }
 }
 
@@ -127,6 +127,9 @@
 .contact-form-textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  color: $txt-c-dark;
+  font-size: 14px;
+  line-height: 1.16;
 }
 
 .contact-form-submit {

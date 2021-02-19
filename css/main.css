@@ -600,6 +600,7 @@ footer address a {
   border-radius: 4px;
   margin-right: 12px;
   padding: 0 0 0 16px;
+  color: #ffffff;
 }
 
 .subscribe-button {
@@ -787,13 +788,16 @@ footer address a {
 
 .contact-form-textarea:hover {
   border: 1px solid #2196f3;
-  color: #2196f3;
+  color: #212121;
 }
 
 .contact-form-input,
 .contact-form-textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  color: #212121;
+  font-size: 14px;
+  line-height: 1.16;
 }
 
 .contact-form-submit {
